@@ -568,9 +568,9 @@ body {
 }
 
 
-.logo:hover {
-  -webkit-animation: rotate-scale-up-ver 0.65s linear both;
-  animation: rotate-scale-up-ver 0.65s linear both;
+.logo {
+  -webkit-animation: rotate-scale-up-ver 10s ease-in-out 7s infinite  alternate both;;
+  animation: rotate-scale-up-ver 10s ease-in-out 7s infinite  alternate both;;
 }
 
 
@@ -582,8 +582,8 @@ body {
   }
 
   50% {
-    -webkit-transform: scale(2) rotateY(180deg);
-    transform: scale(2) rotateY(180deg);
+    -webkit-transform: scale(1) rotateY(180deg);
+    transform: scale(1) rotateY(180deg);
   }
 
   100% {
@@ -600,7 +600,7 @@ body {
 
   50% {
     -webkit-transform: scale(2) rotateY(180deg);
-    transform: scale(2) rotateY(180deg);
+    transform: scale(1) rotateY(180deg);
   }
 
   100% {

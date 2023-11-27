@@ -251,3 +251,62 @@
     font-style: normal;
 }
 
+
+
+@font-face {
+    font-family: "ITC Avant Garde Gothic Std";
+    src: url(./fonts/ITCAvantGardeStd-Demi.otf);
+  }
+  
+  @font-face {
+      font-family: "AvantGardeCTT Bold";
+      src: url("./fonts/avantgardectt-bold.eot"); /* IE9 Compat Modes */
+      src: url("../fonts/avantgardectt-bold/avantgardectt-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("./fonts/avantgardectt-bold.otf") format("opentype"), /* Open Type Font */
+          url("./fonts/avantgardectt-bold.svg") format("svg"), /* Legacy iOS */
+          url("./fonts/avantgardectt-bold.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("./fonts/avantgardectt-bold.woff") format("woff"), /* Modern Browsers */
+          url("./fonts/avantgardectt-bold.woff2") format("woff2"); /* Modern Browsers */
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: "AvantGardeCTT";
+      src: url("./fonts/avantgardectt.eot"); /* IE9 Compat Modes */
+      src: url("../fonts/avantgardectt/avantgardectt.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("./fonts/avantgardectt-bold.otf") format("opentype"), /* Open Type Font */
+          url("./fonts/avantgardectt-bold.svg") format("svg"), /* Legacy iOS */
+          url("./fonts/avantgardectt-bold.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("./fonts/avantgardectt-bold.woff") format("woff"), /* Modern Browsers */
+          url("./fonts/avantgardectt.woff2") format("woff2"); /* Modern Browsers */
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: "AvantGardeCTT Italic";
+      src: url("../fonts/avantgardectt-italic/avantgardectt-italic.eot"); /* IE9 Compat Modes */
+      src: url("../fonts/avantgardectt-italic/avantgardectt-italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("../fonts/avantgardectt-italic/avantgardectt-italic.otf") format("opentype"), /* Open Type Font */
+          url("../fonts/avantgardectt-italic/avantgardectt-italic.svg") format("svg"), /* Legacy iOS */
+          url("../fonts/avantgardectt-italic/avantgardectt-italic.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("../fonts/avantgardectt-italic/avantgardectt-italic.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/avantgardectt-italic/avantgardectt-italic.woff2") format("woff2"); /* Modern Browsers */
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: "AvantGardeCTT BoldItalic";
+      src: url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.eot"); /* IE9 Compat Modes */
+      src: url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.otf") format("opentype"), /* Open Type Font */
+          url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.svg") format("svg"), /* Legacy iOS */
+          url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.woff") format("woff"), /* Modern Browsers */
+          url("../fonts/avantgardectt-bolditalic/avantgardectt-bolditalic.woff2") format("woff2"); /* Modern Browsers */
+      font-weight: normal;
+      font-style: normal;
+  }
+
