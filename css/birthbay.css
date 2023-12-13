@@ -183,7 +183,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 body {
@@ -399,6 +399,7 @@ body {
   height: 100%;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><text x="10" y="20" font-size="15" fill="white">★</text></svg>');
   animation: animateStars 50s linear infinite;
+  z-index: 3;
 }
 
 @keyframes animateStars {
@@ -409,9 +410,24 @@ body {
     background-position: 10000px 10000px;
   }
 }
+.snow {
+position: absolute;
+    color: #fff;
+    background:transparent;
+    width: 95vw;
+    height: 180vh;
+    margin: 0;
+    display: flex;
+    font-size: 2vw;
+    font-weight:;
+    z-index: 5;
+  
+}
+.snow img {
+  width: 17px;
+}
 
-
-marquee {
+.run__text {
   color: #f0e714;
   font-family: 'AvantGardeCTT' sans-serif;
   font-size: 44px;
@@ -422,12 +438,13 @@ marquee {
 
 
 .creative {
-  background-image: url(../images/sky2.jpg);
+  background-image: url(../images/snowman.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
   padding: 80px 0 150px 40px;
+  position: relative;
 
 }
 
@@ -462,6 +479,19 @@ marquee {
 
 }
 
+.creative__tital h1 span {
+
+  color: #da820f;
+  font-family: 'inter';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 0.6px;
+
+}
+
+
 .creative__text p {
   color: #f3f4f6;
   font-family: 'AvantGardeCTT' sans-serif;
@@ -478,9 +508,7 @@ marquee {
 }
 
 .creative__box {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+ 
 }
 
 .creative__button {
@@ -598,13 +626,70 @@ marquee {
   font-weight: 500;
   line-height: 28px;
 }
+.timer__new-year {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 60px 0 50px 0;
+}
+
+.timer__new-year h2 {
+  color: #fff;
+  font-family: 'AvantGardeCTT' sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+.timer__items {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: rgb(196, 198, 80);
+  font-size: 70px;
+  font-weight: bold;
+ 
+  
+}
+.timer__item {
+  position: relative;
+  min-width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+.timer__item:not(:last-child)::after {
+  content: ':';
+  position: absolute;
+  right: -15px;
+}
+
+.timer__dragon img {
+  width: 200px;
+  margin-left: 50px;
+ 
+}
+
 
 .creative__image {
   position: relative;
+  top: 50px;
   display: flex;
-  justify-content: start;
+  justify-content:end;
   align-items: flex-end;
-  width: 750px;
+  width:50%;
   height: auto;
 }
 
