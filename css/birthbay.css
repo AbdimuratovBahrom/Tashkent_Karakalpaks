@@ -406,25 +406,27 @@ body {
   from {
     background-position: 0 0;
   }
+
   to {
     background-position: 10000px 10000px;
   }
 }
+
 .snow {
-position: absolute;
-    color: #fff;
-    background:transparent;
-    width: 95vw;
-    height: 180vh;
-    margin: 0;
-    display: flex;
-    font-size: 2vw;
-    font-weight:;
-    z-index: 5;
-  
+  position: absolute;
+  color: #fff;
+  background: transparent;
+  width: 95vw;
+  height: 180vh;
+  margin: 0;
+  display: flex;
+  font-size: 2vw;
+  z-index: 5;
+
 }
+
 .snow img {
-  width: 17px;
+  width: 1vw;
 }
 
 .run__text {
@@ -505,10 +507,6 @@ position: absolute;
 
 .creative__text a {
   margin-left: 300px;
-}
-
-.creative__box {
- 
 }
 
 .creative__button {
@@ -626,9 +624,10 @@ position: absolute;
   font-weight: 500;
   line-height: 28px;
 }
+
 .timer__new-year {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   padding: 60px 0 50px 0;
 }
@@ -645,14 +644,15 @@ position: absolute;
 
 .timer__items {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   color: rgb(196, 198, 80);
   font-size: 70px;
   font-weight: bold;
- 
-  
+
+
 }
+
 .timer__item {
   position: relative;
   min-width: 60px;
@@ -661,6 +661,7 @@ position: absolute;
   padding-bottom: 15px;
   text-align: center;
 }
+
 .timer__item::before {
   content: attr(data-title);
   display: block;
@@ -670,6 +671,7 @@ position: absolute;
   transform: translateX(-50%);
   font-size: 14px;
 }
+
 .timer__item:not(:last-child)::after {
   content: ':';
   position: absolute;
@@ -679,7 +681,7 @@ position: absolute;
 .timer__dragon img {
   width: 200px;
   margin-left: 50px;
- 
+
 }
 
 
@@ -687,9 +689,9 @@ position: absolute;
   position: relative;
   top: 50px;
   display: flex;
-  justify-content:end;
+  justify-content: end;
   align-items: flex-end;
-  width:50%;
+  width: 50%;
   height: auto;
 }
 
@@ -873,6 +875,137 @@ position: absolute;
 iframe {
   border-radius: 20px;
 }
+
+figure {
+  position: fixed;
+  margin: 58px 0;
+  z-index: 50;
+
+}
+
+
+
+
+
+
+
+.slider__new-year {
+  background-image: url(../images/new-year/frozedglass.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Inter";
+}
+
+.slider__new-year h2 {
+  color: #02358d;
+  font-family: "Inter";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+.slider__new-year p {
+  color: #0a1d0d;
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  padding: 10px;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  width: 100%;
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ef6c26;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 7s;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+}
+
 
 
 
