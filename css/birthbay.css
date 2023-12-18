@@ -4,6 +4,22 @@
 }
 
 @font-face {
+  font-family: "DS Eraser Cyr";
+  src: url(./fonts/new__year-fonts/DS\ Eraser\ Cyr.ttf);
+}
+
+@font-face {
+  font-family: "Matterhorn-rus-by-me";
+  src: url(./fonts/new__year-fonts/matterhorn-rus-by-me.otf);
+}
+
+@font-face {
+  font-family: "mr_HangingLettersG";
+  src: url(./fonts/new__year-fonts/mr_hanginglettersg.otf);
+}
+
+
+@font-face {
   font-family: "AvantGardeCTT Bold";
   src: url("./fonts/avantgardectt-bold.eot");
   /* IE9 Compat Modes */
@@ -278,7 +294,7 @@ body {
 
 .menu__link {
   color: rgb(247, 189, 41);
-  font-family: 'AvantGardeCTT' sans-serif;
+  font-family: 'mr_HangingLettersG';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -310,8 +326,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .logo {
@@ -467,12 +481,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 0 30px 0;
+
 }
 
 .creative__tital h1 {
   color: #f3f4f6;
-  font-family: 'inter';
+  font-family: 'DS Eraser Cyr';
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -484,7 +498,7 @@ body {
 .creative__tital h1 span {
 
   color: #da820f;
-  font-family: 'inter';
+  font-family: 'DS Eraser Cyr';
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -628,17 +642,25 @@ body {
 .timer__new-year {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 60px 0 50px 0;
 }
 
-.timer__new-year h2 {
+.timer__image img {
+  position: relative;
+  left: 48px;
+  bottom: 10px;
+  width: 50px;
+}
+
+.timer__h h2 {
+
   color: #fff;
-  font-family: 'AvantGardeCTT' sans-serif;
+  font-family: 'Matterhorn-rus-by-me';
   font-size: 65px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 58px;
 }
 
 
@@ -878,16 +900,15 @@ iframe {
 
 figure {
   position: fixed;
-  margin: 58px 0;
   z-index: 50;
 
 }
 
-
-
-
-
-
+.timer__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .slider__new-year {
   background-image: url(../images/new-year/frozedglass.jpg);
@@ -899,7 +920,7 @@ figure {
 
 .slider__new-year h2 {
   color: #02358d;
-  font-family: "Inter";
+  font-family: "mr_HangingLettersG";
   font-size: 45px;
   font-style: normal;
   font-weight: 600;
@@ -909,11 +930,11 @@ figure {
 }
 
 .slider__new-year p {
-  color: #0a1d0d;
-  font-family: "Inter";
+  color: rgb(169, 7, 7);
+  font-family: "Matterhorn-rus-by-me";
   font-size: 30px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 28px;
   text-align: center;
   padding: 10px;
@@ -1005,23 +1026,6 @@ img {
     font-size: 11px
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
