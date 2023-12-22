@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="./css/fonts/">
   <link rel="stylesheet" href="./css/fonts/stylesheet.css">
   <link rel="stylesheet" href="./css/birthbay.css">
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.7.js'></script>
+
+
 
 
 
@@ -32,7 +35,7 @@
         </div>
         <h5>К</h5>
       </a>
-      
+
 
       <nav class="menu">
 
@@ -82,7 +85,7 @@
 
     <div class="container">
 
-      
+
       <div class="snow">
         <marquee direction="down" scrolldelay="98"><img src="./images/snow.png" alt=""></marquee>
         <marquee direction="down" scrolldelay="76">*</marquee>
@@ -189,9 +192,9 @@
       <div class="creative__tital">
         <h1 data-aos="fade-up-left" data-aos-duration="2000">Поздравляем С наступающим
           <span> Новым годом !</span>
-          
+
         </h1>
-        
+
       </div>
 
 
@@ -203,29 +206,24 @@
 
       <div class="timer__box">
 
-      <div class="timer__new-year">
-        <div class="timer__image"><img src="./images/new-year/christmas__hat.png" alt=""></div>
-       <div class="timer__h"><h2>До нового 2024 года осталось</h2></div> 
+        <div class="timer__new-year">
+          <div class="timer__image"><img src="./images/new-year/christmas__hat.png" alt=""></div>
+          <div class="timer__h">
+            <h2>До нового 2024 года осталось</h2>
+          </div>
+        </div>
+
+
+
+        <div class="timer__items"><!-- timer.js    -->
+          <div class="timer__item timer__days">00</div>
+          <div class="timer__item timer__hours">00</div>
+          <div class="timer__item timer__minutes">00</div>
+          <div class="timer__item timer__seconds">00</div>
+          <div class="timer__dragon "><img src="./images/dragon-green.png" alt=""></div>
+        </div>
+
       </div>
-
-      <figure>
-        <figcaption></figcaption>
-  <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-  <audio id="player" controls autoplay >
-    <source src="./images/new-year/diskoteka-avarija-novogodnjaja.mp3" type="audio/mp3">
-    <source src="./images/new-year/diskoteka-avarija-novogodnjaja.ogg" type="audio/ogg">
-</audio>
-      </figure>
-
-      <div class="timer__items"><!-- timer.js    -->
-        <div class="timer__item timer__days">00</div>
-        <div class="timer__item timer__hours">00</div>
-        <div class="timer__item timer__minutes">00</div>
-        <div class="timer__item timer__seconds">00</div>
-        <div class="timer__dragon "><img src="./images/dragon-green.png" alt=""></div>
-      </div>
-
-    </div>
 
       <div class="creative__block">
 
@@ -515,18 +513,72 @@
 
     </div>
   </section>
-<div class="section film">
-  <div class="container">
-    <div class="film__block">
-      <a target="_blank" class="film" href="https://w140.zona.plus/"> Фильмы и сериалы<img src="./images/new-year/zona__plus-film.jpg" alt=""></a>
-     <a target="_blank" class="film2" href="https://w140.zona.plus/collections/new-year?ysclid=lqb6tmtjug410562982">Новогоднии фильмы<img src="./images/new-year/new__year-film.jpg" alt=""></a>
-      <a target="_blank" class="clip" href="https://work.vk.com/video/playlist/253251131_106">Новогоднии клипы<img src="./images/new-year/new__year-clips.jpg" alt=""></a>
-     <a target="_blank" class="clip2" href="https://muzclips.ru/novogodnie/?ysclid=lqb7tsaueh537805518">Новогоднии клипы<img src="./images/new-year/new__year-clip2.jpg" alt=""></a>
-     <a target="_blank" class="clip3" href="https://save4k.com/channel/PL4fGSI1pDJn6cLcPmcc9b_l8oM0aJtsqL?ysclid=lqbbbu4fpk400674004">Клипы<img src="./images/new-year/clips.jpg" alt=""></a>
-     <a target="_blank" class="music" href="https://muzofond.fm/">Скачать музыку<img src="./images/new-year/music.jpg" alt=""></a>
+  <section class="film__section">
+    <div class="container">
+      <div class="film__block">
+        <a target="_blank" class="film" href="https://w140.zona.plus/"> Фильмы и сериалы<img
+            src="./images/new-year/zona__plus-film.jpg" alt=""></a>
+        <a target="_blank" class="film2"
+          href="https://w140.zona.plus/collections/new-year?ysclid=lqb6tmtjug410562982">Новогоднии фильмы<img
+            src="./images/new-year/new__year-film.jpg" alt=""></a>
+        <a target="_blank" class="clip" href="https://work.vk.com/video/playlist/253251131_106">Новогоднии клипы<img
+            src="./images/new-year/new__year-clips.jpg" alt=""></a>
+        <a target="_blank" class="clip2" href="https://muzclips.ru/novogodnie/?ysclid=lqb7tsaueh537805518">Новогоднии
+          клипы<img src="./images/new-year/new__year-clip2.jpg" alt=""></a>
+        <a target="_blank" class="clip3"
+          href="https://save4k.com/channel/PL4fGSI1pDJn6cLcPmcc9b_l8oM0aJtsqL?ysclid=lqbbbu4fpk400674004">Клипы<img
+            src="./images/new-year/clips.jpg" alt=""></a>
+        <a target="_blank" class="music" href="https://muzofond.fm/">Скачать музыку<img
+            src="./images/new-year/music.jpg" alt=""></a>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+
+  <section class="section__player">
+    <div class="container">
+      <div class="player__block">
+        <video controls="controls" preload="auto" poster="./images/new-year/video1.jpg">
+          <source src="./images/new-year/video1.mp4" type="video/mp4">
+
+      </div>
+
+      <div class="player__youtube">
+        <iframe width="70%" height="600px"
+          src="https://www.youtube.com/embed/-Ea_1vStswA?si=YvQyy-3driyWIA9L&amp;start=7" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </section>
+  <section class="player_mp3">
+    <div class="container">
+
+      <div class="mp3__player">
+        <div class="player__box">
+          <audio controls="" id="audio" type="audio/mpeg">
+            <source type="audio/mp3" src="./images/new-year/diskoteka-avarija-novogodnjaja.mp3">
+          </audio>
+
+          <div class="snowman2__img">
+            <img src="./images/new-year/snowman2.png" alt="">
+          </div>
+        </div>
+        <ol id="playlist">
+          <li class="active"><a href="./images/new-year/diskoteka-avarija-novogodnjaja.mp3">Дискатека Авария
+              "Новогодняя".</a></li>
+          <li><a href="./images/new-year/winter.mp3">м ф Зима в Простоквашино - Кабы Не Было Зимы (исп.В.Толкунова).</a>
+          </li>
+          <li><a href="./images/new-year/jingel bell.mp3">Jingle Bells original with lyrics.</a></li>
+          <li><a href="./images/new-year/jingel rock.mp3">Christmas Music Christmas Songs Jingle Bells.</a></li>
+        </ol>
+      </div>
+
+    </div>
+  </section>
+
+
 
 
 
@@ -542,6 +594,7 @@
   <script defer src="./css/js/slider2auto.js"></script>
   <script src="./css/js/timer.js"></script>
   <script src="./css/js/main.js"></script>
+  <script src="./css/js/player__mp3.js"></script>
 
 </body>
 

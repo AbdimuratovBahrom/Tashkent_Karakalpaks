@@ -20,6 +20,12 @@
 
 
 @font-face {
+  font-family: "a_BraggaStars";
+  src: url(./fonts/new__year-fonts/a_braggastars.ttf);
+}
+
+
+@font-face {
   font-family: "AvantGardeCTT Bold";
   src: url("./fonts/avantgardectt-bold.eot");
   /* IE9 Compat Modes */
@@ -223,7 +229,7 @@ body {
 }
 
 .header__container {
-  padding: 33px 80px 28px 80px;
+  padding: 33px 20px 28px 80px;
   background: #101c26;
   width: 100%;
 }
@@ -445,11 +451,19 @@ body {
 
 .run__text {
   color: #f0e714;
-  font-family: 'AvantGardeCTT' sans-serif;
+  font-family: 'a_BraggaStars';
   font-size: 44px;
   font-style: normal;
   font-weight: 600;
   line-height: 56px;
+}
+
+.snowman__img {
+  position: relative;
+  bottom: 100px;
+  left: 250px;
+  width: 100px;
+  z-index: -1;
 }
 
 
@@ -898,11 +912,6 @@ iframe {
   border-radius: 20px;
 }
 
-figure {
-  position: fixed;
-  z-index: 50;
-
-}
 
 .timer__box {
   display: flex;
@@ -928,6 +937,7 @@ figure {
   text-align: center;
   padding: 20px;
 }
+
 .slider__new-year h2:hover {
   color: rgb(216, 146, 7);
   transition: all ease-in 0.4s;
@@ -1026,28 +1036,32 @@ img {
 
 
 .film__block {
+  padding: 100px;
   display: flex;
-  justify-content:space-evenly;
-  align-items:flex-start;
+  justify-content: space-evenly;
+  align-items: flex-start;
   flex-wrap: wrap;
-}
-.film__block img {
-  width: 300px;
-  height: auto;
-}
-.film,.film2,.clip,.clip2,.clip3,.music {
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-padding: 20px;
+  background: #f5f5f5;
+
 }
 
-.film:hover,.film2:hover,.clip:hover,.clip2:hover,.clip3:hover,.music:hover {
-transform: scale(1.1);
-transition: all linear 0.4s;
-border-radius: 30px;
+.film__block img {
+  width: 500px;
+  height: auto;
 }
+
+.film__block a:hover {
+  transform: scale(1.1);
+  transition: all linear 0.4s;
+
+}
+
 .film__block a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
   color: #ef6c26;
   font-family: "Inter";
   font-size: 18px;
@@ -1057,12 +1071,102 @@ border-radius: 30px;
   text-align: center;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px
-  }
+.player__block {
+  position: relative;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
 }
+
+.player__block video {
+  width: 70%;
+  border: solid 20px #00bf96;
+  border-radius: 25px;
+}
+
+.player__youtube {
+  position: relative;
+  padding: 0 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+
+.player__youtube iframe {
+  border: solid 20px #00bf96;
+  border-radius: 25px;
+
+}
+
+
+.mp3__player {
+  padding: 20px 0 20px 30px;
+  background: rgb(143, 219, 157);
+
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: cornflowerblue;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #333;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #333;
+}
+
+audio::-webkit-media-controls-timeline {
+  border-radius: 40px;
+  background-color: lightblue;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: lightblue;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+
+#playlist li.active a {
+  color: rgb(38, 31, 236);
+
+}
+
+li.active {
+  background-color: transparent;
+}
+
+li a {
+  font-family: "Inter";
+  font-weight: 500;
+  color: rgb(4, 4, 4);
+}
+
+.player__box {
+  display: flex;
+  align-items: center;
+}
+
+.snowman2__img {
+  width: 100px;
+}
+
 
 
 
@@ -1107,5 +1211,26 @@ border-radius: 30px;
   .menu__link:hover {
     color: rgb(32, 156, 58);
     transition: all ease-in-out 0.4s;
+  }
+
+  .player__block video {
+    width: 70%;
+    border: solid 10px #00bf96;
+    border-radius: 25px;
+  }
+
+  .player__youtube iframe {
+    border: solid 10px #00bf96;
+    border-radius: 25px;
+
+  }
+
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
   }
 }
