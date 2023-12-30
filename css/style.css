@@ -203,7 +203,7 @@ img {
 }
 
 .header__container {
-  padding: 33px 80px 28px 80px;
+  padding: 0px 80px 0px 80px;
   background: #101c26;
   width: 100%;
 }
@@ -212,8 +212,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
 }
 
 .header__burger-btn {
@@ -563,8 +562,14 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+}
+.logo__logo {
+  position: relative;
+  bottom: 26px;
+}
+.logo__hat {
+  position: relative;
+  top: 28px;
 }
 
 .logo {
