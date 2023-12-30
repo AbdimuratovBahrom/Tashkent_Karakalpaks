@@ -657,6 +657,10 @@ body {
   }
 }
 
+.date_line-block {
+  background: #101c26;
+}
+
 
 
 .date__line {
@@ -763,7 +767,11 @@ iframe {
   border-radius: 20px;
 }
 
-
+.chetchic {
+  padding: 5px 15px 15px 0;
+  display: flex;
+  justify-content:end;
+}
 
 
 

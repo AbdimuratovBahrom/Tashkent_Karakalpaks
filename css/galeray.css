@@ -744,18 +744,27 @@ body {
   gap: 40px;
   flex-wrap: wrap;
   padding: 30px;
-  background: #ffffff;
+ background: #313a43;
 }
 
 .video1 {
   position: relative;
-  bottom: 200px;
+  bottom: 150px;
   border-radius: 20px;
   background: #cecece;
   -webkit-box-shadow: 16px 18px 8px 0px rgba(34, 60, 80, 0.26);
   -moz-box-shadow: 16px 18px 8px 0px rgba(34, 60, 80, 0.26);
   box-shadow: 16px 18px 8px 0px rgba(34, 60, 80, 0.26);
 }
+
+
+.chetchic {
+background: #313a43;
+  padding: 5px 15px 15px 0;
+  display: flex;
+  justify-content:end;
+}
+
 
 @media (max-width: 992px) {
   .header__burger-btn {

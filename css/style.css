@@ -800,6 +800,21 @@ img {
   top: 3px;
 }
 
+.celander__block {
+  background: #313a43;
+  padding: 0 15px 15px 15px;
+  display: flex;
+  justify-content:space-between;
+  align-items: end;
+}
+.celander__box p {
+  font-family: 'AvantGardeCTT' sans-serif;
+  color: #fff;
+}
+.celander__box a {
+  font-family: 'AvantGardeCTT' sans-serif;
+  color: #f0e714;
+}
 
 
 
