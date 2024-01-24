@@ -203,7 +203,7 @@ img {
 }
 
 .header__container {
-  padding: 0px 80px 0px 80px;
+  padding: 10px 80px 10px 80px;
   background: #101c26;
   width: 100%;
 }
@@ -212,7 +212,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .header__burger-btn {
@@ -563,14 +563,9 @@ img {
   justify-content: center;
   align-items: center;
 }
-.logo__logo {
-  position: relative;
-  bottom: 26px;
-}
-.logo__hat {
-  position: relative;
-  top: 28px;
-}
+
+
+
 
 .logo {
   -webkit-animation: rotate-scale-up-ver 10s ease-in-out 7s infinite alternate both;
@@ -809,13 +804,15 @@ img {
   background: #313a43;
   padding: 0 15px 15px 15px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: end;
 }
+
 .celander__box p {
   font-family: 'AvantGardeCTT' sans-serif;
   color: #fff;
 }
+
 .celander__box a {
   font-family: 'AvantGardeCTT' sans-serif;
   color: #f0e714;

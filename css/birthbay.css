@@ -443,17 +443,19 @@ body {
 }
 
 .snow {
+ 
   position: absolute;
   color: #fff;
   background: transparent;
   width: 95vw;
   height: 180vh;
   margin: 0;
-  display: flex;
+  display:flex;
   font-size: 2vw;
   z-index: 5;
 
 }
+
 
 .snow img {
   width: 1vw;
@@ -476,7 +478,6 @@ body {
   z-index: -1;
 }
 
-
 .creative {
   background-image: url(../images/snowman.jpeg);
   background-repeat: no-repeat;
@@ -491,7 +492,7 @@ body {
 .creative__block {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:flex-end;
   flex-wrap: wrap;
 }
 
