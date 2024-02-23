@@ -187,7 +187,8 @@ img {
 }
 
 body {
-  font-family: 'AvantGardeCTT' sans-serif;
+  /* font-family: 'AvantGardeCTT' sans-serif; */
+  font-family: "Inter";
   background: #101c26;
 }
 
@@ -400,21 +401,9 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .creative {
   background-image: url(../images/bg__black.svg);
-  padding: 80px 0 50px 40px;
+  padding: 0px 0 50px 40px;
 }
 
 .creative__block {

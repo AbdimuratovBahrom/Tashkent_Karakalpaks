@@ -31,6 +31,18 @@
 
 
 @font-face {
+  font-family: "Lilita One Rus";
+  src: url(./fonts/new__year-fonts/19639.ttf);
+}
+
+
+@font-face {
+  font-family: "Altsys Fontografer";
+  src: url(./fonts/new__year-fonts/18202.ttf);
+}
+
+
+@font-face {
   font-family: "AvantGardeCTT Bold";
   src: url("./fonts/avantgardectt-bold.eot");
   /* IE9 Compat Modes */
@@ -214,13 +226,16 @@ img {
 }
 
 body {
-  font-family: 'AvantGardeCTT' sans-serif;
+  /* font-family: 'AvantGardeCTT' sans-serif; */
+  font-family: "Inter";
+  background: #101c26;
 }
 
 .container {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0;
+
 }
 
 .header {
@@ -240,7 +255,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
+
 }
 
 .header__burger-btn {
@@ -328,10 +343,12 @@ body {
 .header.open .menu {
   transform: translateX(100%);
 }
+
 .logo__logo {
   position: relative;
   bottom: 26px;
 }
+
 .logo__hat {
   position: relative;
   top: 28px;
@@ -425,6 +442,7 @@ body {
 
 .stars {
   position: absolute;
+
   width: 100%;
   height: 100%;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><text x="10" y="20" font-size="15" fill="white">★</text></svg>');
@@ -443,14 +461,14 @@ body {
 }
 
 .snow {
- 
+
   position: absolute;
   color: #fff;
   background: transparent;
   width: 95vw;
   height: 180vh;
   margin: 0;
-  display:flex;
+  display: flex;
   font-size: 2vw;
   z-index: 5;
 
@@ -463,28 +481,21 @@ body {
 
 .run__text {
   color: #f0e714;
-  font-family: 'a_BraggaStars';
+  font-family: "Altsys Fontografer";
   font-size: 44px;
   font-style: normal;
   font-weight: 600;
   line-height: 56px;
 }
 
-.snowman__img {
-  position: relative;
-  bottom: 100px;
-  left: 250px;
-  width: 100px;
-  z-index: -1;
-}
 
 .creative {
-  background-image: url(../images/snowman.jpeg);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  padding: 80px 0 150px 40px;
+  top: 80px;
+  padding: 0px 0px 0px 40px;
   position: relative;
 
 }
@@ -492,7 +503,7 @@ body {
 .creative__block {
   display: flex;
   justify-content: center;
-  align-items:flex-end;
+  align-items: flex-end;
   flex-wrap: wrap;
 }
 
@@ -506,12 +517,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 
 }
 
 .creative__tital h1 {
   color: #f3f4f6;
-  font-family: 'Zanesennyj';
+  font-family: "Altsys Fontografer";
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -523,8 +535,10 @@ body {
 .creative__tital h1 span {
 
   color: #da820f;
-  font-family: 'Matterhorn-rus-by-me';
-  font-size: 60px;
+  font-family: "Inter";
+  text-decoration: line-through;
+  text-decoration-color: red;
+  font-size: 50px;
   font-style: normal;
   font-weight: 500;
   line-height: 66px;
@@ -681,7 +695,7 @@ body {
 .timer__h h2 {
 
   color: #fff;
-  font-family: 'Matterhorn-rus-by-me';
+  font-family: "Altsys Fontografer";
   font-size: 65px;
   font-style: normal;
   font-weight: 500;
@@ -817,8 +831,9 @@ iframe {
   align-items: center;
 }
 
+
 .slider__new-year {
-  background-image: url(../images/new-year/frozedglass.jpg);
+  background-image: url();
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -970,9 +985,11 @@ img {
   text-align: center;
 }
 
+
 .player__block {
   position: relative;
-  padding: 100px 0;
+  position: relative;
+  bottom: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -980,6 +997,7 @@ img {
 }
 
 .player__block video {
+
   width: 70%;
   border: solid 20px #b3bdbb;
   border-radius: 25px;
@@ -987,7 +1005,9 @@ img {
 
 .player__youtube {
   position: relative;
-  padding: 0 0 100px;
+  position: relative;
+  bottom: 200px;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1002,7 +1022,7 @@ img {
 
 
 .mp3__player {
-  padding: 20px 0 20px 30px;
+  padding: 20px 0 80px 30px;
   background: #00bf96;
 
 }
@@ -1062,6 +1082,17 @@ audio::-webkit-media-controls-mute-button {
   transition: all linear 0.4s;
 }
 
+.bot__link a {
+  font-family: "Inter";
+  font-weight: 500;
+  color: rgb(75, 231, 23);
+  z-index: 50;
+}
+
+.bot__link a span {
+  color: rgb(60, 55, 202);
+}
+
 .player__box {
   display: flex;
   align-items: center;
@@ -1076,7 +1107,7 @@ audio::-webkit-media-controls-mute-button {
   background: #f5f5f5;
   padding: 5px 15px 15px 0;
   display: flex;
-  justify-content:end;
+  justify-content: end;
 }
 
 
