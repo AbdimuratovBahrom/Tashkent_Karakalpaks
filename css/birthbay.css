@@ -683,13 +683,12 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 60px 0 50px 0;
+
 }
 
-.timer__image img {
+.timer__h {
   position: relative;
-  left: 48px;
-  bottom: 10px;
-  width: 50px;
+  bottom: 50px;
 }
 
 .timer__h h2 {
@@ -745,6 +744,8 @@ body {
   margin-left: 50px;
 
 }
+
+
 
 .creative__image img {
   position: relative;
@@ -833,7 +834,7 @@ iframe {
 
 
 .slider__new-year {
-  background-image: url();
+  background-image: url(../images/birth__bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -987,9 +988,7 @@ img {
 
 
 .player__block {
-  position: relative;
-  position: relative;
-  bottom: 200px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1004,9 +1003,7 @@ img {
 }
 
 .player__youtube {
-  position: relative;
-  position: relative;
-  bottom: 200px;
+
   padding: 30px;
   display: flex;
   justify-content: center;
