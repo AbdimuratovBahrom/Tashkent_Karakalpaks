@@ -480,8 +480,8 @@ body {
 }
 
 .run__text {
-  color: #f0e714;
-  font-family: "Altsys Fontografer";
+  color: #f5f5f5;
+  font-family: "Zanesennyj";
   font-size: 44px;
   font-style: normal;
   font-weight: 600;
@@ -523,7 +523,8 @@ body {
 
 .creative__tital h1 {
   color: #f3f4f6;
-  font-family: "Altsys Fontografer";
+  text-align: center;
+  font-family: "DS Eraser Cyr";
   font-size: 60px;
   font-style: normal;
   font-weight: 500;
@@ -534,11 +535,11 @@ body {
 
 .creative__tital h1 span {
 
-  color: #da820f;
-  font-family: "Inter";
-  text-decoration: line-through;
+  color: #e1603483;
+  font-family: "DS Eraser Cyr";
+  /* text-decoration: line-through; */
   text-decoration-color: red;
-  font-size: 50px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 500;
   line-height: 66px;
@@ -693,14 +694,25 @@ body {
 
 .timer__h h2 {
 
-  color: #fff;
-  font-family: "Altsys Fontografer";
+  color: #da820f;
+  text-align: center;
+  font-family: "mr_HangingLettersG";
   font-size: 65px;
   font-style: normal;
   font-weight: 500;
   line-height: 58px;
 }
 
+.timer__title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family:'AvantGardeCTT';
+  color:#fff;
+  font-size: 50px;
+  
+}
 
 .timer__items {
   display: flex;
@@ -710,7 +722,7 @@ body {
   color: rgb(196, 198, 80);
   font-size: 70px;
   font-weight: bold;
-
+padding-bottom: 30px;
 
 }
 
@@ -737,6 +749,11 @@ body {
   content: ':';
   position: absolute;
   right: -15px;
+}
+.timer__box h4 {
+  color: rgb(196, 198, 80);
+  font-size: 10px;
+  padding-bottom: 60px;
 }
 
 .timer__dragon img {
@@ -834,7 +851,7 @@ iframe {
 
 
 .slider__new-year {
-  background-image: url(../images/birth__bg.jpg);
+  background-image: url(../images/slider__fon.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -998,6 +1015,7 @@ img {
 .player__block video {
 
   width: 70%;
+  height:600px;
   border: solid 20px #b3bdbb;
   border-radius: 25px;
 }
@@ -1014,7 +1032,8 @@ img {
 .player__youtube iframe {
   border: solid 20px #b3bdbb;
   border-radius: 25px;
-
+width: 70%;
+height: 600px;
 }
 
 
