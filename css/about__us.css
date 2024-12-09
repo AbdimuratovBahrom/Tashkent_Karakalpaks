@@ -583,19 +583,38 @@ body {
   line-height: 56px;
 }
 
+.Agency__line {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 50px;
+}
 
-
-.Agency__img img {
+.Agency2__img img {
   border-radius: 30px;
 }
 
-.Agency__img {
+.Agency__img img {
+  border-radius: 50%;
+}
+
+
+.Agency2__img {
   width: 200px;
   height: auto;
   margin-top: 100px;
   margin-right: 300px;
   -webkit-animation: rotate-center 10s ease-in-out 5s infinite alternate both;
   animation: rotate-center 10s ease-in-out 5s infinite alternate both;
+
+}
+.Agency__img {
+  width: 200px;
+  height: auto;
+  margin-top: 100px;
+  margin-right: 300px;
+  -webkit-animation: rotate-center 14s ease-in-out 3s infinite alternate both;
+  animation: rotate-center 14s ease-in-out 3s infinite alternate both;
 
 }
 
