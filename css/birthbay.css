@@ -239,7 +239,8 @@ body {
 }
 
 .header {
-  position: fixed;
+  position:relative;
+ 
   z-index: 15;
   box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
   width: 100%;

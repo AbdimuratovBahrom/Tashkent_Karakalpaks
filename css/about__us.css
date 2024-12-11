@@ -199,7 +199,7 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: relative;
   z-index: 15;
   box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
   width: 100%;
@@ -523,6 +523,7 @@ body {
   display: flex;
   align-items: center;
   gap: 32px;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -687,7 +688,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   background: #101c26;
-
+width: 100%;
 }
 
 .date__text {
@@ -839,3 +840,47 @@ body {
     transition: all ease-in-out 0.4s;
   }
 }
+
+
+
+
+
+@media (max-width: 486px) {
+  
+.creative__button button {
+  color: var(--Hg1, #24272e);
+  font-family: 'AvantGardeCTT' sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 10px 10px;
+  border-radius: 100px;
+  background: #f0e714;
+  border: none;
+}
+.countdown-number {
+  padding: 6px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
+}
+
+.date__text {
+  
+  animation:none;
+}
+
+
+}
+
+
+
+
