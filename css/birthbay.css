@@ -302,6 +302,33 @@ body {
   transform: translateY(10px);
 }
 
+
+.left_x-tree img {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+  }
+
+  .right_x-tree img {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    transform: rotateY(180deg);
+    width: 250px;
+    }
+
+    .girlyanda img {
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position:absolute;
+      left: 500px;
+      width:500px;
+    }
+
 .menu__list {
   display: flex;
   align-items: center;
@@ -1040,7 +1067,7 @@ height: 600px;
 
 .mp3__player {
   padding: 20px 0 80px 30px;
-  background: #00bf96;
+  background: #fafafa;
 
 }
 
