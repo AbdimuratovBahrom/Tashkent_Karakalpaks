@@ -631,7 +631,7 @@ img {
   flex-direction: column;
   align-items: center;
 
-  background-image: url(../images/Ташкент\ каракалпаклары.jpg);
+  background-image: url(../images/5252.mp4);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -680,6 +680,19 @@ img {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+}
+
+
+.bgvideo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
 }
 
 .slider__block {
