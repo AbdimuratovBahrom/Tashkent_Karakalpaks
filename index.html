@@ -14,7 +14,28 @@
   <link rel="stylesheet" href="./css/fonts/stylesheet.css">
   <link rel="stylesheet" href="./css/style.css">
 
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+    ym(99661012, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true,
+      trackHash: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/99661012" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
 
   <title>Ташкент каракалпаклари</title>
 </head>
@@ -53,7 +74,7 @@
             <a target="_blank" class="menu__link" href="https://kknews.uz/">Новости</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="./birthbay.html">С Новым годом</a>
+            <!-- <a class="menu__link" href="./birthbay.html">С Новым годом</a> -->
           </li>
           <li class="menu__item">
             <a target="_blank" class="menu__link"
@@ -77,11 +98,16 @@
     </div>
   </header>
 
-  <section class="inter">
+  <section class="main">
     <div class="container">
-      <video autoplay loop muted class="bgvideo" id="bgvideo">
-        <source src="./images/5252.mp4" type="video/mp4"></source>
-       
+      <div class="main__video">
+        <video autoplay loop muted class="bgvideo" id="bgvideo">
+          <source src="./images/5252.mp4" type="video/mp4">
+          </source>
+
+      </div>
+
+
 
       <div class="center">
 
@@ -159,14 +185,14 @@
           </div>
 
 
-       </div>
+        </div>
 
       </div>
 
 
-    </video>
+      </video>
 
-    
+
     </div>
 
     </div>
@@ -175,8 +201,8 @@
   <section class="slider">
     <div class="container">
       <div class="slider__box">
-        
-         
+
+
 
         <div class="slider__block">
 
@@ -201,7 +227,7 @@
               <div class="carousel-item">
                 <img src="./images/image57.jpg" class="d-block w-100" alt="...">
               </div>
-              
+
               <div class="carousel-item">
                 <img src="./images/image59.jpg" class="d-block w-100" alt="...">
               </div>
@@ -241,7 +267,7 @@
               <div class="carousel-item">
                 <img src="./images/image71.jpg" class="d-block w-100" alt="...">
               </div>
-              
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
               data-bs-slide="prev">
@@ -257,7 +283,7 @@
 
 
         </div>
-      
+
 
       </div>
 
@@ -335,19 +361,10 @@
               href="https://calendar.yandex.ru/embed/month?private_token=4b515f6ef279c29124764571a9caf3a47627994f&tz_id=Asia/Tashkent">Календарь</a>
           </p>
         </div>
-        
 
-
-        </div>
       </div>
+    </div>
   </section>
-
-
-
-
-
-
-
 
 
   <script src="./css/js/aos.js"></script>

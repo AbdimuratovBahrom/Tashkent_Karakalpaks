@@ -232,7 +232,7 @@ body {
   /* height: 100vh;
  
   overflow: hidden; */
-} 
+}
 
 .snowflake {
   position: absolute;
@@ -240,13 +240,15 @@ body {
   background-size: cover;
   border-radius: 50px;
   animation: fall 2s linear infinite;
-  
+
 }
+
 @keyframes fall {
   0% {
     transform: translate(50%, 50%);
     opacity: 1;
   }
+
   100% {
     transform: translate(50%, 1000%);
     opacity: 0;
@@ -266,8 +268,8 @@ body {
 }
 
 .header {
-  position:relative;
- 
+  position: relative;
+
   z-index: 15;
   box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
   width: 100%;
@@ -336,25 +338,25 @@ body {
   top: 0px;
   left: 0px;
   width: 210px;
-  }
+}
 
-  .right_x-tree img {
-    position: absolute;
-    z-index: 1;
-    top: 0px;
-    right: 0px;
-    transform: rotateY(180deg);
-    width: 250px;
-    }
+.right_x-tree img {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  transform: rotateY(180deg);
+  width: 250px;
+}
 
-    .girlyanda img {
-      display: flex;
-      align-items: center;
-      justify-content:center;
-      position:absolute;
-      left: 500px;
-      width:500px;
-    }
+.girlyanda img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 500px;
+  width: 500px;
+}
 
 .menu__list {
   display: flex;
@@ -763,10 +765,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  font-family:'AvantGardeCTT';
-  color:#fff;
+  font-family: 'AvantGardeCTT';
+  color: #fff;
   font-size: 50px;
-  
+
 }
 
 .timer__items {
@@ -777,7 +779,7 @@ body {
   color: rgb(196, 198, 80);
   font-size: 70px;
   font-weight: bold;
-padding-bottom: 30px;
+  padding-bottom: 30px;
 
 }
 
@@ -805,6 +807,7 @@ padding-bottom: 30px;
   position: absolute;
   right: -15px;
 }
+
 .timer__box h4 {
   color: rgb(196, 198, 80);
   font-size: 10px;
@@ -1070,7 +1073,7 @@ img {
 .player__block video {
 
   width: 70%;
-  height:600px;
+  height: 600px;
   border: solid 20px #b3bdbb;
   border-radius: 25px;
 }
@@ -1087,8 +1090,8 @@ img {
 .player__youtube iframe {
   border: solid 20px #b3bdbb;
   border-radius: 25px;
-width: 70%;
-height: 600px;
+  width: 70%;
+  height: 600px;
 }
 
 
