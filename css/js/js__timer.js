@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
  
-// var deadline = ""; // for endless timer
+ var deadline = "2025.02.16. 18:00"; // for endless timer
 initializeClock('countdown', deadline);
