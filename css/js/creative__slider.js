@@ -8,22 +8,31 @@ const App = () => {
   const images = [
     {
       title: "Mini canine",
-      url: "https://images.unsplash.com/photo-1583551536442-0fc55ac443f6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=600&fit=min&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image1.jpg",
     },
-    { title: "Wheely tent", url: "/images/image2.jpg" },
+    {
+      title: "Wheely tent",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image2.jpg",
+    },
     {
       title: "Red food things",
-      url: "https://images.unsplash.com/photo-1561626450-730502dba332?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=600&fit=min&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image3.jpg",
     },
-    { title: "Sand boat", url: "/images/image4.jpg" },
+    {
+      title: "Sand boat",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image4.jpg",
+    },
     {
       title: "Screen thing",
-      url: "https://images.unsplash.com/photo-1585427795543-33cf23ea2853?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=600&fit=min&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image5.jpg",
     },
-    { title: "Horse tornado", url: "/images/image6.jpg" },
     {
       title: "Horse tornado",
-      url: "https://ix-marketing.imgix.net/genfill.png?auto=format,compress&w=1946",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image6.jpg",
+    },
+    {
+      title: "Horse tornado",
+      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image7.jpg",
     },
   ];
   const onClick = (index) => {
