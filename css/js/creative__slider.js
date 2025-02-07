@@ -6,13 +6,13 @@ const App = () => {
   const [inPlace, setInPlace] = React.useState(0);
   const [disabled, setDisabled] = React.useState(false);
   const images = [
-    { title: "Mini canine", url: "/images/image73.png" },
-    { title: "Wheely tent", url: "/images/image74.png" },
-    { title: "Red food things", url: "/images/image75.png" },
-    { title: "Sand boat", url: "/images/image76.png" },
-    { title: "Screen thing", url: "/images/image77.png" },
-    { title: "Horse tornado", url: "/images/image78.png" },
-    { title: "Horse tornado", url: "/images/image79.png" },
+    { title: "Mini canine", url: "/images/image1.jpg" },
+    { title: "Wheely tent", url: "/images/image2.jpg" },
+    { title: "Red food things", url: "/images/image3.jpg" },
+    { title: "Sand boat", url: "/images/image4.jpg" },
+    { title: "Screen thing", url: "/images/image50.jpg" },
+    { title: "Horse tornado", url: "/images/image6.jpg" },
+    { title: "Horse tornado", url: "/images/image7.jpg" },
   ];
   const onClick = (index) => {
     if (!disabled) setOpened(index);
