@@ -6,13 +6,25 @@ const App = () => {
   const [inPlace, setInPlace] = React.useState(0);
   const [disabled, setDisabled] = React.useState(false);
   const images = [
-    { title: "Mini canine", url: "/images/image1.jpg" },
+    {
+      title: "Mini canine",
+      url: "https://images.unsplash.com/photo-1583551536442-0fc55ac443f6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=600&fit=min&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    },
     { title: "Wheely tent", url: "/images/image2.jpg" },
-    { title: "Red food things", url: "/images/image3.jpg" },
+    {
+      title: "Red food things",
+      url: "https://images.unsplash.com/photo-1561626450-730502dba332?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=600&fit=min&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    },
     { title: "Sand boat", url: "/images/image4.jpg" },
-    { title: "Screen thing", url: "/images/image50.jpg" },
+    {
+      title: "Screen thing",
+      url: "https://images.unsplash.com/photo-1585427795543-33cf23ea2853?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=600&fit=min&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    },
     { title: "Horse tornado", url: "/images/image6.jpg" },
-    { title: "Horse tornado", url: "/images/image7.jpg" },
+    {
+      title: "Horse tornado",
+      url: "https://ix-marketing.imgix.net/genfill.png?auto=format,compress&w=1946",
+    },
   ];
   const onClick = (index) => {
     if (!disabled) setOpened(index);
