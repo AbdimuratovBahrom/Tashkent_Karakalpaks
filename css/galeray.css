@@ -83,89 +83,11 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-Bold.woff2);
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-Medium.woff2);
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-Regular.woff2);
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-SemiBold.woff2);
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-LightBETA.woff2);
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-ExtraLightBETA.woff2);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-Black.ttf);
-}
 
 
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-Bold.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-ExtraBold.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-ExtraLight.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-Light.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-Medium.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-Regular.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-SemiBold.ttf);
-}
-
-
-@font-face {
-  font-family: "Inter";
-  src: url(./fonts/static/Inter-Thin.ttf);
-}
 
 html {
   box-sizing: border-box;
@@ -846,44 +768,45 @@ img {
 }
 
 .item-1 {
-  background-image: url("../images/image1.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image1.jpg");
 }
 
 .item-2 {
-  background-image: url("../images/image2.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image2.jpg");
+
 }
 
 .item-3 {
-  background-image: url("../images/image3.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image3.jpg");
 }
 
 .item-4 {
-  background-image: url("../images/image4.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image4.jpg");
 }
 
 .item-5 {
-  background-image: url("../images/image5.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image5.jpg");
 }
 
 
 .item-6 {
-  background-image: url("../images/image6.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image6.jpg");
 }
 
 .item-7 {
-  background-image: url("../images/image7.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image7.jpg");
 }
 
 .item-8 {
-  background-image: url("../images/image10.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image8.jpg");
 }
 
 .item-9 {
-  background-image: url("../images/image13.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image9.jpg");
 }
 
 .item-10 {
-  background-image: url("../images/image38.jpg");
+  background-image: url("https://storage.cloud.google.com/tashkent_karakalpaks/image10.jpg");
 }
 
 .social {

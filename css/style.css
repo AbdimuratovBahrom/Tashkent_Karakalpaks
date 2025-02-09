@@ -83,7 +83,7 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Inter";
   src: url(./fonts/Inter-Bold.woff2);
 }
@@ -165,7 +165,11 @@
 @font-face {
   font-family: "Inter";
   src: url(./fonts/static/Inter-Thin.ttf);
-}
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 html {
   box-sizing: border-box;
@@ -629,7 +633,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../images/Ташкент\ каракалпаклары2.jpg);
+  background-image: url(https://storage.cloud.google.com/tashkent_karakalpaks/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20%D0%BA%D0%B0%D1%80%D0%B0%D0%BA%D0%B0%D0%BB%D0%BF%D0%B0%D0%BA%D0%BB%D0%B0%D1%80%D1%8B2.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;

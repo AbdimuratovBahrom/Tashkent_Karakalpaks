@@ -8,31 +8,31 @@ const App = () => {
   const images = [
     {
       title: "Mini canine",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image1.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images1.jpg",
     },
     {
       title: "Wheely tent",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image2.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images2.jpg",
     },
     {
       title: "Red food things",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image3.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images3.jpg",
     },
     {
       title: "Sand boat",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image4.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images4.jpg",
     },
     {
       title: "Screen thing",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image5.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images5.jpg",
     },
     {
       title: "Horse tornado",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image6.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images6.jpg",
     },
     {
       title: "Horse tornado",
-      url: "https://storage.cloud.google.com/abdimuratov_1979/image99/image7.jpg",
+      url: "https://storage.cloud.google.com/tashkent_karakalpaks/images7.jpg",
     },
   ];
   const onClick = (index) => {
